@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/triple-awesome.github.io/static/css/main.d73aa1d8.css",
+    "main.js": "/triple-awesome.github.io/static/js/main.fd1fc22c.js",
+    "static/media/bg.jpg": "/triple-awesome.github.io/static/media/bg.17d7ec67c7a6d14f0b83.jpg",
+    "static/media/children.jpg": "/triple-awesome.github.io/static/media/children.4ad889306bac9e1bf1b6.jpg",
+    "static/media/energy.jpg": "/triple-awesome.github.io/static/media/energy.42c1688ff751f0cd587f.jpg",
+    "static/media/health.jpg": "/triple-awesome.github.io/static/media/health.3dda34b79ce91d954ce0.jpg",
+    "static/media/board.png": "/triple-awesome.github.io/static/media/board.0624893cf434026f4dd9.png",
+    "static/media/education.jpg": "/triple-awesome.github.io/static/media/education.13eba7a339e5f3b74119.jpg",
+    "static/media/tupad.jpg": "/triple-awesome.github.io/static/media/tupad.096450a4149a13571e6c.jpg",
+    "index.html": "/triple-awesome.github.io/index.html",
+    "main.d73aa1d8.css.map": "/triple-awesome.github.io/static/css/main.d73aa1d8.css.map",
+    "main.fd1fc22c.js.map": "/triple-awesome.github.io/static/js/main.fd1fc22c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d73aa1d8.css",
+    "static/js/main.fd1fc22c.js"
+  ]
+}
