@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Top welcome section */
+.welcome-section {
+  margin: 10px;
+  padding: 0;
+  background-position: center; 
+  height: 450px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Add a white border at the bottom */
+
+}
+
+
+
+.container {
+  margin: 0 auto;
+  width: 85%;
+}
+
+header, footer {
+  color: white;
+  padding: 0px;
+  background-color: transparent; 
+  border-top: 1px solid white;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: transparent; 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); /* Add a white border at the bottom */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #4f4b4b; 
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: flex-end; 
+}
+
+.navbar-list .nav-item {
+  margin-left: 0px;
+}
+
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* Common Actions */
+
+
+#actions {
+  color: white;
+  font-family: "PT serif", sans-serif;
+  margin-top: 50px;
+  padding: 0 50px 0 50px;
+}
+
+.action {
+  flex: 1;
+  padding: 20px 20px 0 20px;
+}
+
+.action a{
+  text-decoration: none; 
+  color: #ADDFAD;
+  font-family: 'Helvetica'; 
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.active {
+  border-top: 1px solid #ADDFAD;
+  border-width: 85%;
+}
+
+
+/* Preview */
+
+#preview {
+  color: white;
+  margin-top: 50px;
+  min-height: 300px;
+  padding: 0 50px 0 50px;
+}
+
+#imageContainer {
+  flex: 1;
+  padding-right: 20px;
+}
+
+#image {
+  width: 100%;
+  background: url(assets/children.jpg) center;
+  background-size: cover;
+  border-radius: 15px 15px 15px 15px;
+}
+
+#description {
+  flex: 1; 
+  padding: 20px 20px 20px 20px;
+}
+
+#donate {
+  color: white;
+  font-family: 'Helvetica';
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #2C2B27;
+  width: 150px;
+  padding: 10px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Recent */
+#recent-post {
+  margin-top: 50px;
+  padding: 0 50px 0 50px;
+}
+
+#recent-container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+#recent-container::-webkit-scrollbar {
+  height: 10px;
+}
+
+#recent-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+}
+
+#recent-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+}
+
+.recent {
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 270px;
+  min-height: 400px;
+  margin: 0 20px 10px 0;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.recent h6, .recent h4 {
+  margin: 0 25px 20px 25px;
+  font-family: 'Helvetica';
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.recent h6 {
+  color: lightgray;
+  font-size: 10px;
+}
+
+#recent1 {
+  background: url(assets/tupad.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#recent2 {
+  background: url(assets/education.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#recent3 {
+  background: url(assets/health.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#recent4 {
+  background: url(assets/energy.jpg) no-repeat center;
+  background-size: cover;
+}
+
+
+/* Success */
+
+#success {
+  margin-top: 50px;
+  padding: 0 50px 0 50px;
+}
+
+.success-info {
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.success-info h3, .success-info h6 {
+  margin: 5px;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+.success-info h3 {
+  font-size: 40px;
+}
+
+.success-info h6 {
+  font-size: 18px;
+}
+
+/* Set background image for the whole page */
+body {
+  background: url(assets/bg.jpg) no-repeat fixed center;
+  background-size: cover;
+  font-family: 'PT Serif', sans-serif;
+  color: white;
+}
+
+
+/* footer */
+#contact {
+  background-color: transparent ;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  margin: 0 20px;
+  color: white ;
+  font-size: 26px;
+
+}
+
+
